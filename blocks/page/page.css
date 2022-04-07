@@ -1,6 +1,8 @@
 .page {
-  min-width: fit-content;
-  height: 6875px;
+  min-width: 100%;
   margin: 0 auto;
   background-color: #2A2C2F;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  text-rendering: optimizeLegibility;
 }

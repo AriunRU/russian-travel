@@ -1,28 +1,22 @@
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: end;
-  max-width: 1184px;
-  width: calc(100% - 96px);
-  margin: 0 auto;
-  padding-top: 28px;
+.intro{
+  margin: 92px auto 0;
+  width: calc(100% - 296px);
 }
 
 @media screen and (max-width: 1024px) {
-  .header {
+  .intro {
     width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header {
+  .intro {
     width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 480px) {
-  .header {
+  .intro {
     width: calc(100% - 32px);
   }
 }
