@@ -1,0 +1,13 @@
+.header__link-item {
+  margin: 0 18px 6px 0;
+  padding: 0;
+}
+
+.header__link-item:first-child{
+  text-decoration: underline;
+}
+
+.header__link-item:last-child {
+  margin-right: 0;
+}
+
