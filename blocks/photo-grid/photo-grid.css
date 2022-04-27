@@ -1,5 +1,5 @@
 .photo-grid{
-  margin: 92px auto 0;
+  margin: 92px auto 92px;
   max-width: 1184px;
   width: calc(100% - 96px);
 }
@@ -14,11 +14,13 @@
   .photo-grid {
     max-width: 720px;
     width: calc(100% - 48px);
+    margin: 88px auto 88px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .photo-grid {
     width: calc(100% - 32px);
+    margin: 64px auto 64px;
   }
 }
