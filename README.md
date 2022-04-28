@@ -23,4 +23,4 @@ CSS:
 1. Умный просмотр фотогрида
 2. Изменение языка сайта
 
-[Ссылка на проект ->](https://github.com/AriunRU/russian-travel.git)
+[Ссылка на проект ->](https://ariunru.github.io/russian-travel/)
