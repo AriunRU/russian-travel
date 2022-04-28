@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-.header__link-item:first-child{
-  text-decoration: underline;
-}
-
 .header__link-item:last-child {
   margin-right: 0;
 }
