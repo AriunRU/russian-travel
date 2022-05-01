@@ -17,6 +17,12 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .place__title {
+    font-size: 40px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .place__title {
     margin: 0 auto;
