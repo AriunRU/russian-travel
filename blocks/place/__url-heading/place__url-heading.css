@@ -1,13 +1,24 @@
 .place__url-heading {
-  display: block;
-  margin: 0 0 12px 0;
-  padding: 0;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 2px;
-  color: #AAAAAA;
+   font-family: 'Inter', sans-serif;
+   font-size: 12px;
+   line-height: 20.4px;
+   font-weight: 400;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   padding-bottom: 12px;
+   margin: 0;
+   color: #AAAAAA;
+}
+
+@media screen and (max-width: 425px) {
+   .place__url-heading {
+      line-height: 12px;
+      padding: 0 16px 12px 0;
+   }   
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+   .place__url-heading {
+      line-height: 12px;
+   }   
 }

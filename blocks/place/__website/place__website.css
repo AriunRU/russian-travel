@@ -1,12 +1,11 @@
 .place__website {
-  margin: 0;
-  padding: 0;
-  align-self: flex-end;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
 }
 
-@media screen and (max-width: 480px) {
-  .place__website {
-    margin: 32px auto;
-    width: calc(100% - 32px);
-  }
-}
+@media screen and (max-width: 425px) {
+   .place__website {
+     padding-left: 16px;
+   }
+ }

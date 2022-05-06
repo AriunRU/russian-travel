@@ -1,26 +1,9 @@
 .place__image {
-  margin: 0;
-  padding: 0;
-  max-width: 480px;
-  height: auto;
+   max-width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__image {
-    width: 43vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__image {
-    width: 44vw;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .place__image {
-    width: 100vw;
-    margin-bottom: 32px;
-    object-fit: cover;
-  }
+@media screen and (max-width: 600px) {
+   .place__image {
+      padding-bottom: 32px;
+   }   
 }
