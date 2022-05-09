@@ -1,28 +1,25 @@
 .place__paragraph {
-   font-family: 'Inter', sans-serif;
+   font-family: "Inter", "Arial", sans-serif;
+   margin: 0 0 26px 0;
    font-size: 18px;
-   line-height: 29.34px;
+   line-height: 163%;
    font-weight: 400;
-   padding-bottom: 26px;
+ }
+ 
+ .place__paragraph:last-of-type {
    margin: 0;
-   color: #ffffff;
-}
-
-.place__paragraph:last-child {
-   padding-bottom: 0;
-}
-
-@media screen and (max-width: 425px) {
+ }
+ 
+ @media screen and (max-width: 1023px) {
    .place__paragraph {
-      font-size: 16px;
-      line-height: 26.08px;
-      padding: 0 16px 25px 16px;
+     font-size: 16px;
    }
-}
-
-@media (min-width: 426px) and (max-width: 768px) {
+ }
+ 
+ @media screen and (max-width: 767px) {
    .place__paragraph {
-      font-size: 16px;
-      line-height: 26.08px;
-      }
-}
+     max-width: calc(100% - 32px);
+     padding: 0 16px;
+     margin-bottom: 25px;
+   }
+ }
